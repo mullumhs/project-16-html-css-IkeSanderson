@@ -3,58 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <h1>About</h1>
+    <h1 class="box">About</h1>
+
     <nav>
         <ul>
-            <li>Staff</li>
-            <li>Contact Forms</li>
+            <li class="list">Staff</li>
+            <br>
+            <li class="list">Contact Forms</li>
         </ul>
 
     </nav>
 
 
     <section>
-        <h2>Our Team</h2>
+        <h2 class="box">Our Team</h2>
         <table>
             <thead>
                 <tr>
-                    <th>Micheal Hawk</th>
-                    <th>Hue Coxworth</th>
+                    <th class = "lobster"><h3>Micheal Hawk</h3></th>
+                    <th class = "lobster"><h3>Hue.G.Coxworth</h3></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <th>Developer</th>
-                    <th>Artist</th>
+                    <th class = "lobster">Brother of Tony</th>
+                    <th class = "lobster">Artist</th>
                 </tr>
             </tbody>
         </table>
     </section>
     <Section>
-        <h2>Contcat Us</h2>
+        <h2 class = "box">Contcat Us</h2>
         <form action="/submit" method="post">
-            <label for="name">Name:</label>
+            <label for="name" class = "lobster">Name:</label>
             <input type="text" name="name" id="name" required>
             <br>
-            <label for="phone">Phone:</label>
+            <label for="phone" class = "lobster">Phone:</label>
             <input type="text" phone="phone" id="phone" required>
             <br>
-            <label for="credit">Credit Card Details:</label>
+            <label for="credit" class = "lobster">Credit Card Details:</label>
             <input type="text" credit="credit" id="credit" required>
             <br>
-            <label for="message">Message:</label>
+            <label for="message" class = "lobster">Message:</label>
             <textarea id="message" name="message" required></textarea>
             <br>
-            <label for="dev">Micheal Hawk</label>
+            <label for="dev" class = "lobster">Micheal Hawk</label>
             <input id = "dev" type="radio">
             <br>
-            <label for="art">Hue Coxworth</label>
+            <label for="art" class = "lobster">Hue Coxworth</label>
             <input id = "art" type="radio">
             <br>
-            <input type="submit" value="Send">
+            <input type="submit" value="Send" class = "lobster">
 
         </form>
     </Section>
