@@ -1,0 +1,15 @@
+h1 {
+    color: navy;
+    background-color: lavender;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.box {
+    width: 1500px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid #00fbff;
+    margin: 50px auto;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
